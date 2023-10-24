@@ -1,0 +1,119 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void Enemy_Start_m8BBD9A5AE10A27ABDFCD9168B93CD9C69D229034 (void);
+extern void Enemy_Update_m4149CFC3AC081AF0D654D9BDB6BC9B5540CE03D8 (void);
+extern void Enemy__ctor_mB6697627910F785A971C20C671DEFBA9D921D933 (void);
+extern void PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF (void);
+extern void PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33 (void);
+extern void PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1 (void);
+extern void PlayerController_PowerupCountdownRoutine_mFCA144F9CC2E2393D0C4FAE869EDF2138AD29621 (void);
+extern void PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989 (void);
+extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
+extern void U3CPowerupCountdownRoutineU3Ed__10__ctor_mE539F16C88D85C3F7C87CEA97FC0A98BD76B8AD8 (void);
+extern void U3CPowerupCountdownRoutineU3Ed__10_System_IDisposable_Dispose_mDE91C8539D5EB97C99CB4197AE61441639F1011E (void);
+extern void U3CPowerupCountdownRoutineU3Ed__10_MoveNext_m7780504BFE0EA58DFDAD3CF8CBC216E9FB22E490 (void);
+extern void U3CPowerupCountdownRoutineU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1E7B27AB2141B1D69A469EB20BBA87034CA60102 (void);
+extern void U3CPowerupCountdownRoutineU3Ed__10_System_Collections_IEnumerator_Reset_m3A68291257A3A9EC6FE6B734589E0EA6065E5796 (void);
+extern void U3CPowerupCountdownRoutineU3Ed__10_System_Collections_IEnumerator_get_Current_mA2E69262EF4DB02188856DEFBEE8E29166564C06 (void);
+extern void RotateCamera_Start_m4810DEF7E3E6179604900A28D9156240D92C5001 (void);
+extern void RotateCamera_Update_m1312BAEDB4E83B914E9FF4E902C625B78C596A20 (void);
+extern void RotateCamera__ctor_m05430CBDE57A93B9C065D6CE0EFA55BD58891D76 (void);
+extern void SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF (void);
+extern void SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53 (void);
+extern void SpawnManager_Instantiate_m9881383C424E3811E68D51E1BE9FE7A61470B6C9 (void);
+extern void SpawnManager_GenerateSpawnPosition_mE0A3A6F34EF97BBD3A5C9C380753FB1769525EEF (void);
+extern void SpawnManager_SpawnEnemyWave_m4322944133A2080541EDD9737A3FA4E7DA694E49 (void);
+extern void SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[26] = 
+{
+	Enemy_Start_m8BBD9A5AE10A27ABDFCD9168B93CD9C69D229034,
+	Enemy_Update_m4149CFC3AC081AF0D654D9BDB6BC9B5540CE03D8,
+	Enemy__ctor_mB6697627910F785A971C20C671DEFBA9D921D933,
+	PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF,
+	PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33,
+	PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1,
+	PlayerController_PowerupCountdownRoutine_mFCA144F9CC2E2393D0C4FAE869EDF2138AD29621,
+	PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989,
+	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
+	U3CPowerupCountdownRoutineU3Ed__10__ctor_mE539F16C88D85C3F7C87CEA97FC0A98BD76B8AD8,
+	U3CPowerupCountdownRoutineU3Ed__10_System_IDisposable_Dispose_mDE91C8539D5EB97C99CB4197AE61441639F1011E,
+	U3CPowerupCountdownRoutineU3Ed__10_MoveNext_m7780504BFE0EA58DFDAD3CF8CBC216E9FB22E490,
+	U3CPowerupCountdownRoutineU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1E7B27AB2141B1D69A469EB20BBA87034CA60102,
+	U3CPowerupCountdownRoutineU3Ed__10_System_Collections_IEnumerator_Reset_m3A68291257A3A9EC6FE6B734589E0EA6065E5796,
+	U3CPowerupCountdownRoutineU3Ed__10_System_Collections_IEnumerator_get_Current_mA2E69262EF4DB02188856DEFBEE8E29166564C06,
+	RotateCamera_Start_m4810DEF7E3E6179604900A28D9156240D92C5001,
+	RotateCamera_Update_m1312BAEDB4E83B914E9FF4E902C625B78C596A20,
+	RotateCamera__ctor_m05430CBDE57A93B9C065D6CE0EFA55BD58891D76,
+	SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF,
+	SpawnManager_Update_mD714BA3EADCC182FB7A93B9DE347D727E3A1BC53,
+	SpawnManager_Instantiate_m9881383C424E3811E68D51E1BE9FE7A61470B6C9,
+	SpawnManager_GenerateSpawnPosition_mE0A3A6F34EF97BBD3A5C9C380753FB1769525EEF,
+	SpawnManager_SpawnEnemyWave_m4322944133A2080541EDD9737A3FA4E7DA694E49,
+	SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[26] = 
+{
+	1120,
+	1120,
+	1120,
+	1120,
+	1120,
+	947,
+	1092,
+	947,
+	1120,
+	938,
+	1120,
+	1066,
+	1092,
+	1120,
+	1092,
+	1120,
+	1120,
+	1120,
+	1120,
+	1120,
+	359,
+	1118,
+	938,
+	1120,
+	2159,
+	1120,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	26,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
